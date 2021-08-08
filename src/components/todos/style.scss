@@ -1,0 +1,51 @@
+.todo-app {
+    margin: 30px 0;
+  &__todos {
+    ul {
+      margin: 10px 0;
+      border-left: 1px solid #ddd;
+      padding-left: 14px;
+      margin-left: 14px;
+    }
+    li {
+      input {
+        border: none;
+        padding: 5px 0;
+        width: 100%;
+        font-size: 16px;
+        
+        &.error {
+            box-shadow: 0 1px 0 0 red;
+
+        }
+
+        &:focus {
+            outline: none;
+        }
+      
+      }
+    }
+  }
+}
+
+.add-todo-btn {
+  width: 300px;
+  font-size: 17px;
+  border: 2px solid #ccc;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add-btn {
+    background: none;
+    border: none;
+    font-size: 23px;
+    color: #888888;
+    padding: 0 8px;
+    cursor: pointer;
+}

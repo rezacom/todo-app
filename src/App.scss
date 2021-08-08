@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todo-app {
+  box-shadow: 0 0 15px 0 #ccc;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+
+}
